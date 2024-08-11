@@ -1,0 +1,22 @@
+:root {
+  --color-text: #a3bacf;
+  --color-bg: #11162b;
+  --color-primary: #0ee6b8;
+  --color-primary-hover: #0f8f73;
+  --color-secondary: #72d8fe;
+
+  font-family: Karla, sans-serif;
+
+  color-scheme: light dark;
+  background-color: var(--color-bg);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
